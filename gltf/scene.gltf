@@ -3,110 +3,54 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 8715,
+      "count": 4024,
       "max": [
-        0.08821900188922882,
-        0.7602900266647339,
-        1.25
+        0.31855401396751404,
+        1.25,
+        0.8652759790420532
       ],
       "min": [
-        -0.37386101484298706,
-        -0.8420199751853943,
-        -0.6052939891815186
+        -0.31855401396751404,
+        -1.25,
+        -0.8652759790420532
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 104580,
+      "byteOffset": 48288,
       "componentType": 5126,
-      "count": 8715,
+      "count": 4024,
       "max": [
-        1.0,
-        1.0,
-        1.0
+        0.9998267292976379,
+        0.9999547004699707,
+        0.9999945759773254
       ],
       "min": [
-        -1.0,
-        -0.9999997615814209,
-        -1.0
+        -0.9999948143959045,
+        -0.9999768733978271,
+        -0.9999944567680359
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 8715,
+      "count": 4024,
       "max": [
-        0.9335730075836182,
-        0.8922889828681946
+        0.9990000128746033,
+        0.995199978351593
       ],
       "min": [
-        0.5894560217857361,
-        0.6983000040054321
+        0.5,
+        0.5063499808311462
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 42372,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 209160,
-      "componentType": 5126,
-      "count": 15337,
-      "max": [
-        0.37386101484298706,
-        1.0041660070419312,
-        0.114935003221035
-      ],
-      "min": [
-        -0.3356989920139313,
-        -1.0041660070419312,
-        -1.25
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 393204,
-      "componentType": 5126,
-      "count": 15337,
-      "max": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -1.0,
-        -1.0
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 69720,
-      "componentType": 5126,
-      "count": 15337,
-      "max": [
-        0.9663100242614746,
-        0.8762710094451904
-      ],
-      "min": [
-        0.5365480184555054,
-        0.5507990121841431
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 169488,
-      "componentType": 5125,
-      "count": 80544,
+      "count": 11862,
       "type": "SCALAR"
     }
   ],
@@ -114,8 +58,8 @@
     "extras": {
       "author": "Slovakia (https://sketchfab.com/Slovakia)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/ps-controller-2ecb65cc2b0c4f1cabc758ed9952bf66",
-      "title": "PS Controller"
+      "source": "https://sketchfab.com/3d-models/cat-free-59c0b6ba41654bbcabf9979b8636fc9e",
+      "title": "Cat Free"
     },
     "generator": "Sketchfab-12.30.0",
     "version": "2.0"
@@ -123,22 +67,22 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 491664,
+      "byteLength": 47448,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 192416,
-      "byteOffset": 491664,
+      "byteLength": 32192,
+      "byteOffset": 47448,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 577248,
-      "byteOffset": 684080,
+      "byteLength": 96576,
+      "byteOffset": 79640,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -146,19 +90,19 @@
   ],
   "buffers": [
     {
-      "byteLength": 1261328,
+      "byteLength": 176216,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/TexMap_baseColor.jpeg"
+      "uri": "textures/mat_0-GatoTextura.jpg_baseColor.jpeg"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "TexMap",
+      "name": "mat_0-GatoTextura.jpg",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
@@ -182,21 +126,6 @@
           "mode": 4
         }
       ]
-    },
-    {
-      "name": "Object_1",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 5,
-            "POSITION": 4,
-            "TEXCOORD_0": 6
-          },
-          "indices": 7,
-          "material": 0,
-          "mode": 4
-        }
-      ]
     }
   ],
   "nodes": [
@@ -205,39 +134,34 @@
         1
       ],
       "matrix": [
-        2.220446049250313e-16,
-        2.220446049250313e-16,
-        -1.0,
+        1.0,
         0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
         -1.0,
-        4.930380657631324e-32,
-        -2.220446049250313e-16,
         0.0,
         0.0,
         1.0,
         2.220446049250313e-16,
         0.0,
-        -3.337860107421875e-06,
-        -6.352747104407253e-22,
-        2.86102294921875e-06,
+        0.0,
+        0.0,
+        0.0,
         1.0
       ],
       "name": "Sketchfab_model"
     },
     {
       "children": [
-        2,
-        3
+        2
       ],
       "name": "model.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
       "name": "Object_2"
-    },
-    {
-      "mesh": 1,
-      "name": "Object_3"
     }
   ],
   "samplers": [
